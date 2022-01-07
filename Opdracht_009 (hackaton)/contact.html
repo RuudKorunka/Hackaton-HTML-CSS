@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hierin staat informatie (meta-data) over deze webpagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--To create a responsive website-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> HTML Oefening Online</title>
+</head>
+
+<body>
+    <div class="div">
+        <header>
+            <h2 class="Geo">Geopolitical news from Europe and beyond</h2>
+            <h1 class="Evening">The Evening Land</h1>
+        </header>
+    </div>
+
+    <br><br><br>
+
+    <main class="main">
+        <h2>Leave your message here:</h2>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <!-- om het goed in Netlify te deployen -->
+            <p>
+                <label>Name:</label><br>
+                <input class="input" type="text" name="name">
+            </p>
+            <p>
+                <label>Email:</label><br>
+                <input class="input" type="email" name="email">
+            </p>
+            <p>
+                <label>Message:</label><br>
+                <textarea class="input" name="message"></textarea>
+            </p>
+            <p>
+                <label>Upload file:</label><br>
+                <input class="input" type="file" name="myfile">
+            </p>
+            <p>
+                <button class="input" type="submit">Submit:</button>
+                <button class="reset" type="reset">Reset</button>
+            </p>
+        </form>
+    </main><br>
+
+    <footer class="footer">
+        <nav>
+            <!-- zet links zoals About, Contact, Jobs, etc. bij voorkeur direkt onder de header-->
+            <ul class="ul">
+                <li class="li">Copyright: all rights reserved to Evening Land.</li>
+                <li class="li"><a href="index.desktop.html">Home</a></li>
+                <li class="li"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

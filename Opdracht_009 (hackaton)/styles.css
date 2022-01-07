@@ -1,0 +1,88 @@
+
+@media (min-width: 1024px) {         /* for desktops */
+    
+    .div {
+        border: solid navy 1px;
+        margin: 20px 125px 0px 125px;
+        padding-left: 10px;
+    }
+
+    .Geo {
+        font-style: italic;
+        font-size: 20px;
+        color: royalblue;
+    }
+
+    .Evening {
+        font-style: bold;
+        font-size: 60px;
+    }
+
+    nav {
+        margin: 0px 125px 0px 0px;
+    }
+
+    .ul {
+        list-style-type: none;
+    }
+
+    .li {
+        display: inline;
+        padding: 30px;
+    }
+
+    body {
+        background-color:white;
+    }
+
+    main {
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+
+    .phototext {
+        margin-right: 400px;
+        line-height: 1.5;
+        font-size: 17px;
+    }
+
+    img {
+        float: left
+    }
+    
+    iframe {
+        float: left
+    }
+
+    .footer {
+        border-top: solid navy 1px;
+        margin: 25px 125px 25px 125px;
+    }
+
+    .h4 {
+        color:royalblue;
+    }
+    
+    .phototextarticle {
+        margin-right: 400px;
+        line-height: 1.5;
+    }
+    
+    .input {
+        margin-top: 5px;
+    }
+    
+    .reset {
+        margin-left: 25px;
+    }
+}
+
+
+
+
+/* Voor MOBILE en TABLETS maak ik later af vanwege weinig tijd. */
+
+
+
+
+
